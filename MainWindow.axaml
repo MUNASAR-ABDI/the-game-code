@@ -1,0 +1,11 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="MyApp2.MainWindow">
+    <StackPanel>
+        <TextBlock Text="MUNASAR'S GAME OF GUESSING" Margin="50" />
+        <TextBlock Text="input a number between 10 and 30 and click 'Guess' to see if you guessed correctly:" Margin="10" />
+        <TextBox x:Name="GssTxtBx" Margin="10" />
+        <Button x:Name="GuessButton" Content="Guess?" Click="OnGuessButtonClick" Margin="10" />
+        <TextBlock x:Name="Resulttext" Margin="10" />
+    </StackPanel>
+</Window>
